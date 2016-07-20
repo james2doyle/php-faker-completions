@@ -8,7 +8,7 @@ Sublime Text completions for the [fzaninotto/Faker package](https://github.com/f
 
 #### Package Control
 
-Just look for `php-faker-completions` on [Package Control](https://packagecontrol.io/search/php-faker-completions).
+Just look for `PHP Faker Completions` on [Package Control](https://packagecontrol.io/search/PHP%20Faker%20Completions).
 
 #### Manual
 
