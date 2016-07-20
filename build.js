@@ -31,7 +31,7 @@ function makeTemplate(line) {
   // get the arguments
   var snips = getArgs(line);
   // return the nice template
-  return "\t\t{ \"trigger\": \"" + name.replace(/\\/g, "\\\\") + "\", \"contents\": \"" + snips.replace(/\\/g, "\\\\") + ";${0}\" },\n";
+  return "\t\t{ \"trigger\": \"" + name.replace(/\\/g, "\\\\") + "\", \"contents\": \"" + snips.replace(/\\/g, "\\\\") + "${0}\" },\n";
 }
 
 fs.readFile('sources.txt', function(err, data) {
