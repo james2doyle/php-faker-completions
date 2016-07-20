@@ -1,0 +1,233 @@
+randomDigit
+randomDigitNotNull
+randomNumber($nbDigits = NULL)
+randomFloat($nbMaxDecimals = NULL, $min = 0, $max = NULL)
+numberBetween($min = 1000, $max = 9000)
+randomLetter
+randomElements($array = array ('a','b','c'), $count = 1)
+randomElement($array = array ('a','b','c'))
+shuffle('hello, world')
+shuffle(array(1, 2, 3))
+numerify('Hello ###')
+lexify('Hello ???')
+bothify('Hello ##??')
+asciify('Hello ***')
+regexify('[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}')
+word
+words($nb = 3, $asText = false)
+sentence($nbWords = 6, $variableNbWords = true)
+sentences($nb = 3, $asText = false)
+paragraph($nbSentences = 3, $variableNbSentences = true)
+paragraphs($nb = 3, $asText = false)
+text($maxNbChars = 200)
+title($gender = null|'male'|'female')
+titleMale
+titleFemale
+suffix
+name($gender = null|'male'|'female')
+firstName($gender = null|'male'|'female')
+firstNameMale
+firstNameFemale
+lastName
+cityPrefix
+secondaryAddress
+state
+stateAbbr
+citySuffix
+streetSuffix
+buildingNumber
+city
+streetName
+streetAddress
+postcode
+address
+country
+latitude($min = -90, $max = 90)
+longitude($min = -180, $max = 180)
+phoneNumber
+tollFreePhoneNumber
+e164PhoneNumber
+catchPhrase
+bs
+company
+companySuffix
+jobTitle
+realText($maxNbChars = 200, $indexSize = 2)
+unixTime($max = 'now')
+dateTime($max = 'now', $timezone = date_default_timezone_get())
+dateTimeAD($max = 'now', $timezone = date_default_timezone_get())
+iso8601($max = 'now')
+date($format = 'Y-m-d', $max = 'now')
+time($format = 'H:i:s', $max = 'now')
+dateTimeBetween($startDate = '-30 years', $endDate = 'now', $timezone = date_default_timezone_get())
+dateTimeInInterval($startDate = '-30 years', $interval = '+ 5 days', $timezone = date_default_timezone_get())
+dateTimeThisCentury($max = 'now')
+dateTimeThisDecade($max = 'now')
+dateTimeThisYear($max = 'now')
+dateTimeThisMonth($max = 'now')
+amPm($max = 'now')
+dayOfMonth($max = 'now')
+dayOfWeek($max = 'now')
+month($max = 'now')
+monthName($max = 'now')
+year($max = 'now')
+century
+timezone
+email
+safeEmail
+freeEmail
+companyEmail
+freeEmailDomain
+safeEmailDomain
+userName
+password
+domainName
+domainWord
+tld
+url
+slug
+ipv4
+localIpv4
+ipv6
+macAddress
+userAgent
+chrome
+firefox
+safari
+opera
+internetExplorer
+creditCardType
+creditCardNumber
+creditCardExpirationDate
+creditCardExpirationDateString
+creditCardDetails
+iban($countryCode)
+swiftBicNumber
+hexcolor
+rgbcolor
+rgbColorAsArray
+rgbCssColor
+safeColorName
+colorName
+fileExtension
+mimeType
+file($sourceDir = '/tmp', $targetDir = '/tmp')
+file($sourceDir, $targetDir, false)
+imageUrl($width = 640, $height = 480)
+imageUrl($width, $height, 'cats')
+imageUrl($width, $height, 'cats', true, 'Faker')
+imageUrl($width, $height, 'cats', true, 'Faker', true)
+image($dir = '/tmp', $width = 640, $height = 480)
+image($dir, $width, $height, 'cats')
+image($dir, $width, $height, 'cats', false)
+image($dir, $width, $height, 'cats', true, false)
+image($dir, $width, $height, 'cats', true, true, 'Faker')
+uuid
+ean13
+ean8
+isbn13
+isbn10
+boolean
+boolean($chanceOfGettingTrue = 50)
+md5
+sha1
+sha256
+locale
+countryCode
+languageCode
+currencyCode
+biasedNumberBetween($min = 10, $max = 20, $function = 'sqrt')
+# idNumber
+# nationalIdNumber
+# foreignerIdNumber
+# vat
+# vat(false)
+# vat
+# vat(false)
+# region
+# ico
+# monthNameGenitive
+# formattedDate
+# birthNumber
+# cpr
+# kommune
+# region
+# cvr
+# p
+# cellNumber
+# tollFreeNumber
+# areaCode
+# bankAccountNumber
+# bankRoutingNumber
+# companyNumber
+# tollFreeNumber
+# mobileNumber
+# dni
+# vat
+# vat(false)
+# departmentName
+# departmentNumber
+# department
+# region
+# siren
+# siret
+# bankAccountNumber
+# vatId()
+# taxId()
+# kanaName
+# firstKanaName
+# lastKanaName
+# bankAccountNumber
+# businessIdentificationNumber
+# bank
+# bankAccountNumber
+# individualIdentificationNumber
+# metropolitanCity
+# borough
+# personalIdentityNumber
+# district
+# cityName
+# vat
+# vat(false)
+# vat
+# btw
+# bankAccountNumber
+# pesel
+# personalIdentityNumber
+# taxpayerIdentificationNumber
+# regon
+# regonLocal
+# bank
+# bankAccountNumber
+# taxpayerIdentificationNumber
+# region
+# regionAbbr
+# areaCode
+# cellphone
+# landline
+# phone
+# cellphone(false)
+# cellphone(true, true)
+# cellphoneNumber
+# landlineNumber(false)
+# phoneNumber
+# phoneNumberCleared
+# name
+# cpf
+# cpf(false)
+# rg
+# cnpj
+# cnpj(false)
+# bankAccountNumber
+# bankAccountNumber
+# prefixMale
+# prefixFemale
+# firstNameMale
+# firstNameFemale
+# tollFreePhoneNumber
+# premiumRatePhoneNumber
+# bank
+# bankAccountNumber
+# personalIdentityNumber()
+# personalIdentityNumber('female')
+# bank
